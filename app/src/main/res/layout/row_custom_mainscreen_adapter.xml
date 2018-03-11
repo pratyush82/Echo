@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentRow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stairway to Heaven"
+                android:textColor="#212121"
+                android:textStyle="normal"
+                android:textSize="17sp"
+                android:paddingBottom="-7dp"
+                android:paddingRight="9dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/trackTitle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Smithies"
+                android:textColor="#bdbdbd"
+                android:paddingRight="7dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/trackArtist"
+                android:layout_below="@id/trackTitle"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#e0e0e0"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
